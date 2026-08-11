@@ -14,6 +14,8 @@ Connect your AI assistant to live SEC dilution forensics, market data, and news 
 
 You need an API key: [snacs.trade/api](https://snacs.trade/api) -> subscribe -> account settings -> API keys (`snacs_sk_live_...`).
 
+The server accepts the key two ways: `Authorization: Bearer snacs_sk_...` (shown below) or a plain `X-API-Key: snacs_sk_...` header (useful for gateways and directories that inject a single key header).
+
 ### Claude Desktop
 Settings -> Connectors -> Add custom connector:
 - URL: `https://mcp.snacs.trade`
