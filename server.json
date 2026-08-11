@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "trade.snacs/snacs-data",
+  "title": "SNACS Data",
+  "description": "SEC dilution data, live market data, and news for U.S. equities, with point-in-time as-of queries.",
+  "repository": {
+    "url": "https://github.com/snacstrade/snacs-mcp",
+    "source": "github"
+  },
+  "version": "3.4.2",
+  "websiteUrl": "https://snacs.trade/api",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.snacs.trade/",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your SNACS API key (snacs_sk_...)>",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
