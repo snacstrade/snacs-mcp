@@ -1,5 +1,7 @@
 # SNACS MCP Server
 
+[![smithery badge](https://smithery.ai/badge/dev-bve9/snacs-trade)](https://smithery.ai/servers/dev-bve9/snacs-trade)
+
 Connect your AI assistant to live SEC dilution forensics, market data, and news for U.S. equities updated in real-time.
 
 `https://mcp.snacs.trade` - remote MCP server, HTTP transport, no local install.
