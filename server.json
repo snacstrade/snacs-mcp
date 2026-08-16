@@ -7,7 +7,7 @@
     "url": "https://github.com/snacstrade/snacs-mcp",
     "source": "github"
   },
-  "version": "3.4.2",
+  "version": "3.5.0",
   "websiteUrl": "https://snacs.trade/api",
   "remotes": [
     {
@@ -16,8 +16,8 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer <your SNACS API key (snacs_sk_...)>",
-          "isRequired": true,
+          "description": "Bearer <your SNACS API key (snacs_sk_...)>. Optional: clients supporting MCP OAuth (claude.ai) can connect with no key via the one-click sign-in flow.",
+          "isRequired": false,
           "isSecret": true
         }
       ]
